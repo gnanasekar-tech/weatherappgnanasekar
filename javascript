@@ -99,7 +99,7 @@ let geocode = {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(success, console.error);
         } else {
-            weather.fetchWeather("Manipal");
+            weather.fetchWeather("Tiruttani");
         }
     }
 };
@@ -116,7 +116,7 @@ document
         }
     });
 
-weather.fetchWeather("Manipal");
+weather.fetchWeather("Tiruttani");
 
 document
     .querySelector(".search-bar")
